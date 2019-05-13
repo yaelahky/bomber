@@ -6,7 +6,7 @@ $phone_number = trim(fgets(STDIN));
 echo 'Masukkan jumlah boom max 49 : '; 
 $jml = trim(fgets(STDIN)); 
 
-echo 'Masukkan pesan yang akan dikirim';
+echo 'Masukkan pesan yang akan dikirim : ';
 $input_nama = fopen('php://stdin','r');
 $nama = trim(fgets($input_nama));
 
