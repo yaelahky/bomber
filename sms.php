@@ -20,7 +20,7 @@ $urlmessage =  urlencode( $nama );
     $curl = curl_init();
     // Set some options - we are passing in a useragent too here
     curl_setopt_array($curl, [
-        CURLOPT_URL => 'http://api.ancreator.com/c/index.php?type=sms&phone='.$phone_number.'&msg='.$urlmessage.'',
+        CURLOPT_URL => 'http://api.ancreator.com/c/index.php?type=sms&phone='.$phone_number.'&msg='.$urlmessage.'' .$i. '',
     ]);
     // Send the request & save response to $resp
     $resp = curl_exec($curl);
